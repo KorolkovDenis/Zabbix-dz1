@@ -48,7 +48,7 @@ SSH ключ создаем, например, с помощью PuttyGen:
 
 ![screen4](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen4.png)
 
-Теперь нам необходимо настроить дашборд. (выбираем сервис Yandex Monitoring  Дашборды  Создать дашборд  далее выбираем (например: график) и задаем параметры, по которым будем мониторить наш объект (ВМ).
+Теперь нам необходимо настроить дашборд. (выбираем сервис Yandex Monitoring - Дашборды - Создать дашборд - далее выбираем (например: график) и задаем параметры, по которым будем мониторить наш объект (ВМ).
 
 ![screen5](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen5.png)
 ![screen6](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen6.png)
@@ -74,7 +74,7 @@ SSH ключ создаем, например, с помощью PuttyGen:
 
 Ответ:
 
-Выбираем Алерты  Ставим необходимые нам метрики  будем наблюдать за работой CPU_utilization
+Выбираем Алерты - Ставим необходимые нам метрики - будем наблюдать за работой CPU_utilization
 
 ![screen12](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen12.png)
 
