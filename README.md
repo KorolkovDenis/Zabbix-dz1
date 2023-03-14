@@ -35,32 +35,32 @@
 
 Заходим в свой аккаунт YandexCloud:  
 
-[screen1](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen1.png)
+![screen1](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen1.png)
 
 Создаем новую виртуальную машину (сервис –Compute Cloud):
 
-[screen2](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen2.png)
+![screen2](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen2.png)
 
 Выбираем подходящие настройки для нашей ВМ:
 
-[screen3](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen3.png)
+![screen3](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen3.png)
 
 SSH ключ создаем, например, с помощью PuttyGen:
 
-[screen4](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen4.png)
+![screen4](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen4.png)
 
 Теперь нам необходимо настроить дашборд. (выбираем сервис Yandex Monitoring  Дашборды  Создать дашборд  далее выбираем (например: график) и задаем параметры, по которым будем мониторить наш объект (ВМ).
 
-[screen5](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen5.png)
-[screen6](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen6.png)
-[screen7](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen7.png)
-[screen8](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen8.png)
-[screen9](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen9.png)
+![screen5](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen5.png)
+![screen6](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen6.png)
+![screen7](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen7.png)
+![screen8](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen8.png)
+![screen9](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen9.png)
 
 Чтобы мы могли заходить на наш хост с консоли, нам нужно создать пароль для пользователя. Для этого сперва воспользуемся putty и сгенерированным раннее (puttygen) private key. Зайдем по ssh на наш хост и командой passwd зададим пользователю root пароль: 123456789. Готово.
 
-[screen10](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen10.png)
-[screen11](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen11.png)
+![screen10](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen10.png)
+![screen11](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen11.png)
 
 
 ```
