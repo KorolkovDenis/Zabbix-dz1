@@ -74,8 +74,19 @@ SSH ключ создаем, например, с помощью PuttyGen:
 
 Ответ:
 
-1. [Дополнительное задание]()
+Выбираем Алерты  Ставим необходимые нам метрики  будем наблюдать за работой CPU_utilization
+
+![screen12](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen12.png)
+
+Чтобы нам получать сигнал на почту email, добавим канал уведомления:
+
+![screen13](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen13.png)
+
+В итоге получаем наш рабочий Alert:
+
+![screen14](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen14.png)
+
 
 ## Ссылка на мою работу в Google:
 
-[Моя работа по Zabbix]()
+[Моя работа по Zabbix](https://docs.google.com/document/d/1HskjyD9W_HNKI3BXPL3VlcHLB_2EXMF3/edit?usp=share_link&ouid=104113173630640462528&rtpof=true&sd=true)
