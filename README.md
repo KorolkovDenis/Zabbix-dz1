@@ -34,9 +34,32 @@
 
 Заходим в свой аккаунт YandexCloud:  
 
-[screen1](https://github.com/KorolkovDenis/8.01-Git-Korolkov_Denis/commit/0220beaea039b1063f8ec9a30a93b0d128dc0c55)
+[screen1](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen1.png)
 
+Создаем новую виртуальную машину (сервис –Compute Cloud):
 
+[screen2](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen2.png)
+
+Выбираем подходящие настройки для нашей ВМ:
+
+[screen3](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen3.png)
+
+SSH ключ создаем, например, с помощью PuttyGen:
+
+[screen4](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen4.png)
+
+Теперь нам необходимо настроить дашборд. (выбираем сервис Yandex Monitoring  Дашборды  Создать дашборд  далее выбираем (например: график) и задаем параметры, по которым будем мониторить наш объект (ВМ).
+
+[screen5](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen5.png)
+[screen6](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen6.png)
+[screen7](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen7.png)
+[screen8](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen8.png)
+[screen9](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen9.png)
+
+Чтобы мы могли заходить на наш хост с консоли, нам нужно создать пароль для пользователя. Для этого сперва воспользуемся putty и сгенерированным раннее (puttygen) private key. Зайдем по ssh на наш хост и командой passwd зададим пользователю root пароль: 123456789. Готово.
+
+[screen10](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen10.png)
+[screen11](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen11.png)
 
 
 ```
@@ -46,10 +69,13 @@
 
 Эти задания дополнительные (не обязательные к выполнению) и никак не повлияют на получение вами зачета по этому домашнему заданию. Вы можете их выполнить, если хотите глубже и/или шире разобраться в материале.
 
-`Ссылка на граф коммитов:`
+### Задание 2*
 
-1. [Дополнительное задание](https://github.com/KorolkovDenis/8.01-Git-Korolkov_Denis/network)
+`С помощью Yandex Monitoring сделайте 2 алерта на загрузку процессора: WARN и ALARM. Создайте уведомление по e-mail.
+Приложите скриншот с уведомлением.`
+
+1. [Дополнительное задание]()
 
 ## Ссылка на мою работу в Google:
 
-[Моя работа по Zabbix](https://docs.google.com/document/d/1kDriW_3IqiJBneEFyUIt1KTkDurVy9nz/edit?usp=share_link&ouid=104113173630640462528&rtpof=true&sd=true)
+[Моя работа по Zabbix]()
