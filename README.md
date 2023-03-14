@@ -24,16 +24,17 @@
 
 ### Задание 1
 
-`Это ссылка на первый коммит:`
-
-1. [коммит к первому заданию](https://github.com/KorolkovDenis/8.01-Git-Korolkov_Denis/commit/0220beaea039b1063f8ec9a30a93b0d128dc0c55)
+`Создайте виртуальную машину в Yandex Cloud Compute Cloud и с помощью Yandex Monitoring создайте дашборд, на котором будет видно загрузку процессора.
+Приложите скриншот.
+Ответ:`
 
 ```
 
 Последовательность выполнения:
 
-Устанавливаем Git на пк:  
+Заходим в свой аккаунт YandexCloud:  
 
+[screen1](https://github.com/KorolkovDenis/8.01-Git-Korolkov_Denis/commit/0220beaea039b1063f8ec9a30a93b0d128dc0c55)
 
 
 
