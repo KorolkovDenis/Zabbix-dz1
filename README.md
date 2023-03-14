@@ -29,7 +29,6 @@
 
 Ответ:
 
-```
 
 Последовательность выполнения:
 
@@ -62,8 +61,6 @@ SSH ключ создаем, например, с помощью PuttyGen:
 ![screen10](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen10.png)
 ![screen11](https://github.com/KorolkovDenis/Zabbix-dz1/blob/main/Screen/screen11.png)
 
-
-```
 
 ---
 ## Дополнительные задания (со звездочкой*)
